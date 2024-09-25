@@ -1,8 +1,11 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   text-align: center;
-  margin: 0;
 }
 
 body, .container, .text-container {
@@ -15,7 +18,8 @@ body, .container, .text-container {
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
-  width: 288px;
+  width: 320px;
+  height: 500px;
   padding: 10px;
   margin: 50px;
 }
@@ -27,7 +31,7 @@ body, .container, .text-container {
 
 #qr-code {
   border-radius: 10px;
-  width: 288px;
+  width: 100%;
 }
 
 h3 {
